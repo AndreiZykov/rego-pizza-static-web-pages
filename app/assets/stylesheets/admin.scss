@@ -1,0 +1,25 @@
+// Place all the styles related to the Admin controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.brown-col {
+    .admin-menu-item {
+        a {
+            color: white !important;
+        }
+    }
+}
+.white-col {
+        .admin-menu-item {
+        a {
+            color: #912a2d !important;
+        }
+    }
+}
+
+img {
+     margin: auto;
+    width: 100%;
+    padding: 10px;
+}

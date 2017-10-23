@@ -1,0 +1,50 @@
+        <% unless menu_item.nil? %>
+            <div class="menu-body" id="<%= anchor_link %> ">
+                 <!-- Section starts: Appetizers -->
+                 <div class="menu-section">
+                  <div class="row title-parent">
+                       <div class="col-xs-10">
+                          <h2 class="menu-section-title"><%= menu_item.section_name %></h2>
+                       </div>
+                       <div class="col-xs-2 menu-section-title title-child">
+                           
+                       </div>
+                  </div>
+                    <!-- Section second title -->
+                    <% menu_item.second_sections.each do |second_section| %>
+                    <div>
+                        <h3 class="menu-section-second-title">
+                            <%= second_section.second_section_name %>
+                        </h3>
+                    </div>
+                    
+                    <% second_section.items.each do |item| %>
+                    
+                    <!-- Item starts -->
+                    <div class="menu-item">
+                       <div class="menu-item-name">
+                         <%= item.name %>
+                       </div>
+                       <div class="menu-item-price">
+                         <%= item.price %>
+                       </div>
+                       <div class="menu-item-description">
+                         <% unless item.description.nil? || item.description.empty? %>
+                             <span><%= item.description %> </span>
+                         <% end %>
+                         <% unless item.extras.nil? || item.extras.empty? %>
+                           <br>
+                           <span class="menu-extra"><%= item.extras %> </span>
+                         <% end %>
+                       </div>
+                    </div>
+                    <% end %>
+                  <% end %>   
+                  
+                     <br>
+                          <br>
+                           
+                 </div>
+                 <!-- Section ends -->
+              </div>
+              <% end %>

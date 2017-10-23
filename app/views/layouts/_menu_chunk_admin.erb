@@ -1,0 +1,55 @@
+        <% unless menu_item.nil? %>
+            <div class="menu-body">
+                 <!-- Section starts: Appetizers -->
+                 <div class="menu-section">
+                  <div class="row title-parent">
+                       <div class="col-xs-10">
+                          <h2 class="menu-section-title"><%= menu_item.section_name %></h2>
+                       </div>
+                       
+                       <div class="col-xs-2 menu-section-title title-child">
+                           
+                       </div>
+                  </div>
+                   
+                   <h6><%= link_to "Add new item >>>", create_new_item_path(:section => menu_item.section_name) %></h6>
+                   
+                    <!-- Section second title -->
+                    <% menu_item.second_sections.each do |second_section| %>
+                    <div>
+                        <h3 class="menu-section-second-title">
+                            <%= second_section.second_section_name %>
+                        </h3>
+                    </div>
+                    
+                    <% second_section.items.each do |item| %>
+
+                    <!-- Item starts -->
+                    <div class="menu-item admin-menu-item">
+                       <div class="menu-item-name">
+                         <%= link_to item.name, admin_show_item_path(item_id: item.id) %>
+                       </div>
+                       <div class="menu-item-price">
+                         <%= link_to item.price, admin_show_item_path(item_id: item.id) %> 
+                       </div>
+                       <div class="menu-item-description">
+                         <% unless item.description.nil? || item.description.empty? %>
+                             <span> <%= link_to item.description, admin_show_item_path(item_id: item.id) %> </span>
+                         <% end %>
+                         <% unless item.extras.nil? || item.extras.empty? %>
+                           <br>
+                           <span class="menu-extra"><%= link_to item.extras, admin_show_item_path(item_id: item.id) %> </span>
+                          <% end %>
+                        
+                       </div>
+                    </div>
+                    <% end %>
+                  <% end %>   
+                  
+                     <br>
+                          <br>
+                           
+                 </div>
+                 <!-- Section ends -->
+              </div>
+              <% end %>

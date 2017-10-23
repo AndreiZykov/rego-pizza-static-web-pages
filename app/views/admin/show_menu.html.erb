@@ -1,0 +1,17 @@
+<div class="row">
+    
+           <div class="row">                                
+            <div class="col-sm-12 col-md-4 white-col">
+              <%= render :partial => '/layouts/menu_chunk_admin', :locals => {:menu_item => @res["BREAKFAST MENU"] } %>
+             <%= render :partial => '/layouts/menu_chunk_admin', :locals => {:menu_item => @res["HOT BEVARAGES"] } %>
+            </div>
+            <div class="col-sm-12 col-md-4 brown-col">
+                 <%= render :partial => '/layouts/menu_chunk_admin', :locals => {:menu_item => @res["LUNCH/DINNER MENU"] } %>
+            </div>
+            <div class="col-sm-12 col-md-4 white-col">
+              <%= render :partial => '/layouts/menu_chunk_admin', :locals => {:menu_item => @res["PIZZA MENU"] } %>
+              <%= render :partial => '/layouts/menu_chunk_admin', :locals => {:menu_item => @res["COLD BEVARAGES"] } %>
+            </div> 
+            </div>
+    
+</div>

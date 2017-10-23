@@ -1,0 +1,46 @@
+<%= simple_form_for(@item, html: { class: 'form-horizontal' }, :url => save_menu_item_changes_path) do |f| %>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="row">
+<div class="col-xs-10 col-xs-offset-1">
+<div class="panel panel-primary">
+ <div class="panel-heading">
+     <h3>Change Menu Item </h3>
+     <h4><%= " - Category: #{@item.section}" %></h4>
+ </div>
+  <div class="panel-body">
+     <div class="col-xs-10 col-xs-offset-1">
+     
+      
+      <%= f.input :second_section, label: 'Sub-category', collection: @sub_sections, prompt: "Select your age", selected: @item.second_section %>
+      <%= f.input :name %>
+      <%= f.input :description %>
+      <%= f.input :extras %>
+      <%= f.input :price %>
+      <%= f.input :section, :as => :hidden %>
+      <%= f.input :id, :as => :hidden %>
+      
+      
+      <hr>
+      <h5>Hot to:</h5>
+      <img src="/menu_item_tutorial.jpg" alt="" class="img-responsove">
+      <hr>
+      
+      <%= f.button :submit, class: "pull-right btn-primary"%>
+  
+      
+      </div>
+  </div>
+</div>
+</div>
+  </div>
+
+
+<% end %>
+
+
+

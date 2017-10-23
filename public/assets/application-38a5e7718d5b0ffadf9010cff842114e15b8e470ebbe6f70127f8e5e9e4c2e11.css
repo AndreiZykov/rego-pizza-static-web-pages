@@ -1,0 +1,427 @@
+/* line 6, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/main.scss */
+.placeholder {
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 19, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.map-view {
+  padding: 25px;
+}
+
+/* line 23, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.title-parent {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* line 29, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.title-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fdb523 !important;
+}
+
+/* line 38, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-extra {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+}
+
+/* line 45, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.slogan {
+  text-align: center;
+  color: #912a2d;
+  background: white;
+  font-family: helvetica;
+  margin-bottom: 0;
+}
+/* line 50, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.slogan h3 {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: 300;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+/* line 62, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.delivery {
+  text-align: center;
+  color: #912a2d;
+  background: #ffdd25;
+  font-family: helvetica;
+  margin-top: 0;
+}
+/* line 67, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.delivery h3 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 77, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.ads {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #912a2d;
+  background: white;
+  font-family: helvetica;
+}
+/* line 84, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.ads h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* line 94, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.ads h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+/* line 106, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.address {
+  margin-top: 0;
+  text-align: center;
+  color: #912a2d;
+  background: white;
+  font-family: helvetica;
+}
+/* line 108, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.address h1, .address h3 {
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/* line 123, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-section-title {
+  font-family: georgia;
+  font-size: 25px;
+  display: block;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: left;
+  color: white;
+  padding: 10px;
+  height: 70px;
+}
+
+/* line 139, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.white-col .menu-body {
+  margin: 10px 0;
+  padding: 0 10px;
+  border-style: dotted;
+  border-color: #912a2d;
+}
+/* line 145, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.white-col .menu-section-title {
+  background: #912a2d;
+  color: white;
+}
+/* line 150, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.white-col .menu-item-name {
+  color: black;
+}
+
+/* line 155, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.brown-col {
+  background: #912a2d;
+}
+/* line 156, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.brown-col .menu-body {
+  margin: 10px 0;
+  padding: 0 10px;
+  border-style: dotted;
+  border-color: white;
+}
+/* line 162, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.brown-col .menu-section-second-title {
+  color: #ffdd25;
+}
+/* line 166, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.brown-col .menu-section-title {
+  background: white;
+  color: #912a2d;
+}
+/* line 172, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.brown-col .menu-item-name, .brown-col .menu-item-price, .brown-col .menu-item-description {
+  color: white !important;
+}
+
+/* line 177, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 182, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: #5c5c5c;
+}
+
+/* line 189, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-section {
+  margin-bottom: 80px;
+}
+
+/* line 193, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-section-second-title {
+  color: #912a2d;
+  margin-left: 5px;
+  font: normal 26px 'Cookie', cursive;
+}
+
+/* line 199, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+/* line 204, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-item-name {
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted #d5d5d5;
+  margin-left: 10px;
+}
+
+/* line 211, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-item-description {
+  margin-left: 10px;
+  font-style: italic;
+  font-size: .9em;
+  line-height: 16px;
+}
+
+/* line 218, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.menu-item-price {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+
+/* line 226, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+/* line 238, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+/* line 247, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+/* line 253, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+/* line 259, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+/* Footer links */
+/* line 265, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+/* line 271, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 278, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+/* line 287, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+/* line 291, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+/* line 304, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+/* line 309, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* line 316, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* line 323, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+/* Footer Right */
+/* line 331, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+/* line 335, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 343, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 351, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+/* line 355, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media (max-width: 880px) {
+  /* line 376, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  /* line 380, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  /* line 389, /Users/andrey/rails_projects/rego-pizza/app/assets/stylesheets/application.scss */
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}

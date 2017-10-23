@@ -1,0 +1,547 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.options > col-md-4 {
+    height: 15vh;
+}
+
+.options > div > p {
+        text-align: center;
+        font-size: 24px;
+        color: #912a2d;
+    }
+
+.kosher-border {
+    border: solid 1px #912a2d;
+    border-radius: 10px;
+}
+
+.call-btn-wrapper {
+    position: fixed;
+    background: #fdb523;
+    height: 50px;
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    border-radius: 50px 0 0 0;
+    z-index: 120 !important;
+    color: white;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 50px;
+    font-family: helvetica;
+    font-weight: 500;
+    opacity: 0.87;
+}
+
+.call-btn {
+    a, a:hover {
+        color: white;
+    }
+    opacity: 0.87;
+    background: #912a2d;
+    border-radius: 50px;
+    position: fixed;
+    bottom: -15px;
+    right: -15px;
+    width: 75px;
+    height: 75px;
+    z-index: 121;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    font-size: 35px;
+}
+
+.kosher-title {
+    padding: 10px;
+    text-align: center;
+    color: #912a2d;
+    background: white;
+    font-family: helvetica;
+    opacity: 0.87;
+}
+
+.image-wrapper {
+    background: white;
+    opacity: 0.87;
+    margin-top: 10vh;;
+}
+
+.landing-wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.landing-part {
+    background-image: url("/landing-image.jpg");
+    background-size: 100vw 100vh;
+    height: 110vh;
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+}
+
+/* navbar */
+.navbar-default {
+    margin-bottom: 0 !important;
+    background-color:  #912a2d !important ;
+    border-color: #912a2d !important;
+    border-radius: 0 !important;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #fdb523 !important;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fdb523 !important;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: white !important;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white !important;
+    background-color: #912a2d !important;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+}
+
+
+.map-view {
+    padding: 25px;
+}
+
+.title-parent {
+     overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.title-child {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fdb523 !important;
+}
+
+.menu-extra {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 12px;
+}
+
+.slogan {
+    text-align: center;
+    color: #912a2d;
+    background: white;
+    font-family: helvetica;
+    h3 {
+        margin-top: 0;
+        padding-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: 300;
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    margin-bottom: 0;
+}
+
+.delivery {
+    text-align: center;
+    color: #912a2d;
+    background: #ffdd25;
+    font-family: helvetica;
+    h3 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 32px;
+        font-weight: 400;
+        margin: 0;
+    }
+    margin-top: 0;
+}
+
+.ads {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #912a2d;
+    background: white;
+    font-family: helvetica;
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+        h5 {
+            margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 18px;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+}
+
+.address {
+    
+    h1, h3 {
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    
+    margin-top: 0;
+    text-align: center;
+    color: #912a2d;
+    background: white;
+    font-family: helvetica;
+}
+
+.menu-section-title {
+    
+  font-family: georgia;
+  font-size: 25px;
+  display: block;
+  font-weight: bold;
+  margin: 20px 0; 
+  text-align: left;
+    
+    color: white;
+    padding: 10px;
+    height: 70px;
+    
+}
+
+.white-col {
+     .menu-body {
+        margin: 10px auto; 
+        padding: 0 10px;
+        border-style: dotted;
+        border-color: #912a2d;
+    }
+  .menu-section-title {
+      background: #912a2d;
+      color: white;
+  }
+    
+    .menu-item-name {
+        color: black;
+    }
+}
+
+.brown-col {
+    .menu-body {
+        margin: 10px auto; 
+        padding: 0 10px;
+        border-style: dotted;
+        border-color: white;
+    }
+    .menu-section-second-title {
+        color: #ffdd25;
+    }
+    
+   .menu-section-title {
+      background: white;
+      color: #912a2d;
+  }
+    
+    background: #912a2d;
+    .menu-item-name, .menu-item-price, .menu-item-description {
+        color: white !important;
+    }
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+ 
+.menu-section {
+  margin-bottom: 80px;
+}
+ 
+.menu-section-second-title {
+    color: #912a2d;
+    margin-left: 5px;
+    font: normal 26px 'Cookie', cursive;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+ 
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+  margin-left: 10px;    
+}
+ 
+.menu-item-description {
+    margin-left: 10px;
+  font-style: italic;
+  font-size: .9em;
+  line-height: 16px;
+}
+ 
+.menu-item-price{
+  float: right;
+  font-size: 12px;    
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+
+.footer-distributed{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #5383d3;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
